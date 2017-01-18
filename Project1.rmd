@@ -1,7 +1,7 @@
-## Abstract
+# Abstract
 Fitbit, Nike, and Jawbone (2015) personal activitity monitoring devices enable capture for large amount of data about personal movement.  This report makes use of sample data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
-##Data
+# Data
 
 The data for this assignment can be downloaded from the course web site:
 
@@ -15,7 +15,7 @@ Dataset: Activity monitoring data [52K]. The variables included in this dataset 
 
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.  See Appendix Data Extract in the annex for listings of the first and last ten rows of data.   
 
-##Loading and preprocessing the data
+# Loading and preprocessing the data
 
 1. Load the data (i.e. read.csv())
 ```{r}  
@@ -186,7 +186,8 @@ we <- aggregate(steps ~ interval, weekend, mean, na.rm=TRUE)
 plot(we, type="l", xlab="Weekend 5-min Interval", ylab="Average Steps")
 
 
-##References  
+# References
+
 1. [Fitbit](http://www.fitbit.com/). (2015). Retrieved May 14, 2015, from http://www.fitbit.com.
 2. [Nike](http://www.nike.com/us/en_us/c/nikeplus-fuel). (2015). Retrieved May 14, 2015, from http://www.nike.com/us/en_us/c/nikeplus-fuel.
 3. [Jawbone](https://jawbone.com/up). (2015). Retrieved May 14, 2015, from https://jawbone.com/up.
