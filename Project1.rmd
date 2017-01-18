@@ -185,15 +185,11 @@ we <- aggregate(steps ~ interval, weekend, mean, na.rm=TRUE)
 # plot the average interval graph for weekends
 plot(we, type="l", xlab="Weekend 5-min Interval", ylab="Average Steps")
 
-# Great assignment!
-```
 
 ##References  
-[Fitbit](http://www.fitbit.com/). (2015). Retrieved May 14, 2015, from http://www.fitbit.com.
-
-[Nike](http://www.nike.com/us/en_us/c/nikeplus-fuel). (2015). Retrieved May 14, 2015, from http://www.nike.com/us/en_us/c/nikeplus-fuel.
-
-[Jawbone](https://jawbone.com/up). (2015). Retrieved May 14, 2015, from https://jawbone.com/up.
+1. [Fitbit](http://www.fitbit.com/). (2015). Retrieved May 14, 2015, from http://www.fitbit.com.
+2. [Nike](http://www.nike.com/us/en_us/c/nikeplus-fuel). (2015). Retrieved May 14, 2015, from http://www.nike.com/us/en_us/c/nikeplus-fuel.
+3. [Jawbone](https://jawbone.com/up). (2015). Retrieved May 14, 2015, from https://jawbone.com/up.
 
 ##Appendix Data Extract
 Show the first 10 rows of data  
