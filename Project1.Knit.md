@@ -328,13 +328,17 @@ The preponderance of missing data are complete days, impute no activity into the
 
 # Analysis
 
-Yes, increasing the population biased the mean by skewing the mean towards zero from 37.3826 to 32.4797. The median remained robust throughout both calculations. The number of aggregrated day rows increased from 53 to 61, and the frequency of zeros increased with the introduction of zeros for NA's on those days. Without even introducing more zero values for the NA values, the number of zeros are approximately 75%; therefore, the median will remianed zero.
+Yes, increasing the population is skewing the mean towards zero from 37.3826 to 32.4797. The median remained robust throughout both calculations. 
+
+The number of aggregrated day rows increased from 53 to 61, and the frequency of zeros increased with the introduction of zeros for NA's on those days. 
+
+Without even introducing more zero values for the NA values, the number of zeros are approximately 75%; therefore, the median will remianed zero.
 
 # Are there differences in activity patterns between weekdays and weekends?
 
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
 
-Yes. Activity starts earlier and reamains higher throughout the day then subsiding towards the end.
+Yes, activity reamains higher throughout the day then subsiding towards the end and starts earlier.  
 
 1. Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
